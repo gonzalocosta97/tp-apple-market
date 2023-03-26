@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+
+	<title> Apple Market | Soporte </title>
+
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="../css/styles.css" type="text/css" media="screen">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+	<link rel="icon" href="../images/icon.png" type="image/png">
+
+</head>
+
+
+
+
+<body>
+
+	<header>
+
+		<div id="encabezado">
+
+			 <h1> <a href="../index.html"> Apple <span>Market</span> </a> </h1> 
+
+		</div>
+
+	</header>
+
+
+	<nav id="menu">
+
+		<div id="botonera">
+
+			<ul> 
+
+				<li> <a href="../index.html"> Inicio </a> </li>
+
+				<li> <a href="productos.html"> Productos </a> </li>
+
+				<li> <a href="soporte.html"> Soporte </a> </li>
+
+				<li> <a href="contacto.html"> Contacto </a> </li>
+
+			</ul>
+
+		</div>
+
+	</nav>
+
+
+	<section id="header_soporte">
+
+		<h2> Soporte </h2>
+
+		<form id="val_garantia" onsubmit="return false">
+
+			<div id="exit_val"> <a href="#" onclick="exitVal()"> x </a> </div>
+
+			<h3 id="tit_val"> ¿Desea validar la garantía de su iPhone? </h3>
+
+			<div id="bot_val_gar"> <a href="#" onclick="valGar()"> Continuar </a> </div>
+
+				<div id="info_gar"> 
+
+					<label for="fecha_compra"> Ingrese la fecha de compra de su equipo </br> <span> (Registrada en factura Apple) </span> </br> </label> 
+					<input type="date" name="fecha_compra" id="fecha_compra" >
+
+					<input type="submit" name="send_date" id="send_date" value="Validar" onclick="calcFecha()">
+
+					<p id="res_garantia"> </p>
+
+
+				</div>
+
+		</form>
+		
+	</section>
+
+
+	<section id="info_soporte">
+
+		<h3> Recomendaciones previas a un ingreso a servicio técnico</h3>
+
+		<ul>
+
+			<li>1) Validar el acceso a tu cuenta iCloud. </li>
+
+			<li>2) Realizar respaldo de datos en iCloud. </li>
+
+			<li>3) Desactivar Find My iPhone. <em>(Obligatorio)</em> </li>
+
+			<li>4) Retirar tarjeta SIM. </li>
+
+			<div id="boton_fmi"> <a href="https://iunlocker.com/check_imei.php"> Chequear estado FMI </a> </div>
+
+		</ul>
+
+		<h3> Sitio web oficial de soporte Apple </h3>
+
+		<div class="boton_repa"> <a href="https://getsupport.apple.com/"> Solicitar soporte </a> </div>
+
+		<h3> ¿Posees alguna duda sobre un producto adquirido en Apple Market?</h3>
+
+		<div class="boton_repa"> <a href="contacto.html"> ¡Contactanos! </a> </div>
+
+
+	</section>
+
+
+ 	<footer>
+
+ 		<div id="footinfo">
+
+ 			<p id="gac"> Sitio web desarrollado por <a href="#"> GAC Web Projects </a> </p>
+
+ 			<p id="aviso">* La marca Apple Market y su respectivo sitio web, fueron creados con fines educativos, y no poseen finalidad comercial real</p>
+
+ 		</div>
+
+ 	</footer>
+ 	
+ 
+ <script type="text/javascript" src="../js/scriptsoporte.js"></script>
+
+</body>
+
+
+</html>

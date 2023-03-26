@@ -1,0 +1,1458 @@
+* {
+margin:0;
+padding:0;
+}
+
+body {
+background-color:#ededed;
+
+font-family:"Nunito Sans", "Calibri", "Arial";
+}
+
+
+/* Header */
+
+
+#encabezado {
+width:100%;
+height:80px;
+
+background-color:black;
+}
+
+h1 {
+font-size:25px;
+font-weight:700;
+line-height:80px;
+text-align:center;
+}
+
+h1 span {
+font-weight:200;
+}
+
+h1 a {
+color:#ededed;
+text-decoration:none;
+}
+
+h1 a:hover {
+color:#3ea3db;
+}
+
+#menu {
+width:100%;
+height:40px;
+
+border-bottom:2px solid #3ea3db;
+
+box-shadow:0px 0px 5px black;
+-moz-box-shadow:0px 0px 5px black;
+-webkit-box-shadow:0px 0px 5px black;
+
+background-color:#ededed;
+}
+
+#botonera{
+width:960px;
+
+margin:0px auto 0 auto;
+}
+
+#botonera ul {
+float:right;
+
+list-style-type:none;
+}
+
+#botonera ul li {
+display:inline;
+}
+
+#botonera ul li a{
+margin-right:10px;
+margin-left:10px;
+
+display:inline-block;
+
+color:black;
+font-size:20px;
+line-height:40px;
+font-weight:200;
+text-align:center;
+text-decoration:none;
+}
+
+#botonera ul li a:hover{
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+transform:scale(1.1,1.1);
+
+color:#3ea3db;
+}
+
+#banner{
+width:100%;
+height:250px;
+
+background-image:url("images/iphone.jpg");
+background-origin:border-box;
+-webkit-background-origin:border;
+-moz-background-origin:border;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+
+/* Sección Principal (Inicio) */
+
+
+#seccion_principal {
+width:960px;
+
+margin:20px auto 20px auto;
+
+overflow:hidden;
+}
+
+#seccion_principal h2 {
+margin-bottom:15px;
+padding:10px;
+border-bottom:1px solid #3ea3db;
+
+font-size:35px;
+font-weight:700;
+text-align:center;
+color:#3ea3db;
+}
+
+#seccion_principal p{
+padding:5px;
+
+font-size:20px;
+line-height:35px;
+font-weight:200;
+text-align:center;
+}
+
+#seccion_principal p span {
+color:#3ea3db;
+font-weight:700;
+}
+
+#botonprod {
+height:40px;
+
+margin:15px 20px 15px 0px;
+
+float:right;
+}
+
+#botonprod a{
+padding:10px;
+
+border:1px solid #3ea3db;
+
+border-radius:8px;
+-webkit-border-radius:8px;
+-moz-border-radius:8px;
+
+font-size:15px;
+line-height:40px;
+font-weight:400;
+color:#3ea3db;
+text-align:center;
+text-decoration:none;
+}
+
+#botonprod a:hover {
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+background-color:#3ea3db;
+
+color:#ededed;
+}
+
+
+/* Footer */
+
+
+footer{
+width:100%;
+
+border-top:4px solid #3ea3db;
+
+overflow:hidden;
+
+background-color:black;
+}
+
+#footinfo{
+margin:40px 0 40px 0;
+}
+
+#footinfo #gac{
+margin-bottom:5px;
+font-weight:500;
+font-size:14px;
+
+color:#3ea3db;
+text-align:center;
+}
+
+#footinfo #gac a{
+color:#3ea3db;
+text-decoration:none;
+}
+
+#footinfo #aviso{
+font-size:7px;
+font-weight:200;
+color:#ededed;
+text-align:center;
+font-style:italic;
+}
+
+
+/* Sección productos */
+
+
+#productos {
+width:960px;
+
+margin:50px auto 0 auto;
+}
+
+.desc_producto {
+width:700px;
+height:380px;
+
+margin:0 auto 50px auto;
+padding:20px;
+
+overflow:hidden;
+
+box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+-moz-box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+-webkit-box-shadow:0px 0px 10px rgba(0,0,0,0.4);
+}
+
+.tit_producto {
+border-bottom:0.5px solid #3ea3db;
+
+box-sizing:border-box;
+
+font-size:25px;
+font-weight:500;
+color:#3ea3db;
+text-align:center;
+}
+
+.div_img_producto {
+width:250px;
+height:250px;
+
+margin:20px 0 0 35px;
+
+float:left;
+}
+
+.img_producto{
+width:100%;
+}
+
+
+.info_producto {
+width:350px;
+height:200px;
+
+margin:45px 35px 0 0;
+
+float:right;
+
+font-size:18px;
+line-height:40px;
+font-weight:200;
+list-style-type:none;
+}
+
+
+.boton_compra {
+width:140px;
+height:50px;
+
+margin:15px 60px 0px 0px;
+
+border:1px solid #3ea3db;
+border-radius:8px;
+-webkit-border-radius:8px;
+-moz-border-radius:8px;
+
+clear:both;
+float:right;
+
+box-sizing:border-box;
+}
+
+#enlace_compra {
+width:100%;
+height:100%;
+
+font-size:20px;
+line-height:50px;
+
+display:inline-block;
+
+font-weight:200;
+color:#3ea3db;
+text-decoration:none;
+text-align:center;
+}
+
+.boton_compra:hover{
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+background-color:#3ea3db;
+}
+
+#enlace_compra:hover {
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+color:#ededed;
+}
+
+
+/* Sección Soporte */
+
+
+#header_soporte {
+width:960px;
+margin:50px auto 20px auto;
+
+text-align:center;
+}
+
+#header_soporte h2{
+font-size:35px;
+line-height:35px;
+font-weight:500;
+color:#3ea3db;
+}
+
+
+#val_garantia {
+width:500px;
+
+margin:50px auto 50px auto;
+border-top:1px solid black;
+border-bottom:1px solid black;
+}
+
+#exit_val{
+margin:10px 20px 0 0;
+
+display:inline-block;
+float:right;
+}
+
+#exit_val a{
+display:block;
+
+font-size:20px;
+line-height:20px;
+font-weight:500;
+color:rgba(62,163,219, 1);
+text-decoration:none;
+}
+
+#exit_val a:hover{
+transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+
+color:black;
+}
+
+#val_garantia h3 {
+padding:2px;
+
+clear:both;
+
+font-size:18px;
+line-height:18px;
+font-weight:300;
+text-align:center;
+}
+
+#bot_val_gar {
+margin:10px 0 30px 0;
+
+display:inline-block;
+}
+
+#bot_val_gar a{
+padding:5px;
+
+display:block;
+
+font-size:16px;
+line-height:16px;
+font-weight:700;
+color:#3ea3db;
+text-decoration:none;
+}
+
+#bot_val_gar a:hover{
+transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+
+color:black;
+}
+
+#info_gar {
+height:auto;
+
+margin-bottom:30px;
+
+clear:both;
+display:none;
+}
+
+#info_gar label {
+margin:10px auto 0 auto;
+
+display:block;
+
+font-size:18px;
+line-height:18px;
+font-weight:700;
+}
+
+#info_gar label span{
+font-size:14px;
+line-height:14px;
+font-weight:500;
+font-style:italic;
+}
+
+#val_garantia input {
+display:block;
+}
+
+
+#fecha_compra {
+all:unset;
+
+margin:20px auto 10px auto;
+padding:10px;
+border-bottom:3px solid #3ea3db;
+
+font-size:18px;
+}
+
+#send_date {
+all:unset;
+
+margin:0 auto 10px auto;
+padding:10px;
+
+font-size:16px;
+line-height:16px;
+color:#3ea3db;
+}
+
+#send_date:hover{
+transition:all 0.5s linear;
+-webkit-transition:all 0.5s linear;
+-moz-transition:all 0.5s linear;
+-o-transition:all 0.5s linear;
+
+color:black;
+}
+
+#info_gar p {
+font-size:16px;
+line-height:16px;
+}
+
+#info_gar p span {
+font-size:14px;
+line-height:20px;
+font-weight:300;
+font-style:italic;
+}
+
+
+#info_soporte {
+width:960px;
+
+margin:0 auto 50px auto;
+}
+
+#info_soporte h3{
+margin:0 auto 20px auto;
+padding:10px;
+
+border-bottom:3px solid #3ea3db;
+
+font-size:22px;
+line-height:22px;
+
+font-weight:500;
+text-align:center;
+color:black;
+}
+
+#info_soporte ul{
+margin:0 200px 20px 200px;
+
+overflow:hidden;
+
+list-style-type:none;
+}
+
+#info_soporte li{
+font-size:18px;
+line-height:45px;
+font-weight:300;
+color:black;
+}
+
+#info_soporte em{
+font-size:15px;
+color:#eda302;
+}
+
+#boton_fmi {
+width:170px;
+height:30px;
+
+border:1px solid #3ea3db;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+
+float:right;
+
+font-weight:300;
+}
+
+#boton_fmi a {
+width:100%;
+height:100%;
+
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+
+display:inline-block;
+
+font-size:15px;
+line-height:30px;
+color:#3ea3db;
+text-align:center;
+text-decoration:none;
+}
+
+#boton_fmi:hover{
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+background-color:#3ea3db;
+}
+
+#boton_fmi a:hover{
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+color:#ededed;
+}
+
+.boton_repa {
+width:150px; 
+height:40px;
+
+margin:0 auto 20px auto;
+
+border:1px solid #3ea3db;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+
+text-align:center;
+}
+
+.boton_repa a{
+width:100%;
+height:100%;
+
+display:inline-block;
+
+font-size:18px;
+line-height:40px;
+font-weight:300;
+color:#3ea3db;
+text-align:center;
+text-decoration:none;
+}
+
+.boton_repa:hover {
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+background-color:#3ea3db;
+
+transform:scale(1.1,1.1);
+}
+
+.boton_repa a:hover {
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+color:#ededed;
+}
+
+
+/* Sección Contacto */
+
+
+#contacto {
+width:960px;
+
+margin:50px auto 50px auto;
+}
+
+#contacto h2 {
+font-size:35px;
+font-weight:500;
+color:#3ea3db;
+text-align:center;
+}
+
+#p_contacto{
+padding:20px;
+
+border-bottom:1px solid #3ea3db;
+border-top:1px solid #3ea3db;
+
+font-size:18px;
+line-height:45px;
+font-weight:300;
+text-align:center;
+}
+
+#p_contacto span {
+color:#5bc764;
+font-weight:bold;
+}
+
+#form_contacto {
+width:560px;
+
+margin:20px auto 0 auto;
+
+overflow:hidden;
+}
+
+#form_contacto ul {
+list-style-type:none;
+overflow:hidden;
+}
+
+
+#form_contacto input, select, textarea {
+width:100%;
+height:50px;
+
+margin:0 auto 15px auto;
+padding:10px;
+
+border:1px solid #3ea3db; 
+border-radius:5px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+
+box-sizing:border-box;
+
+background-color:#ededed;
+
+font-family:"Nunito Sans", "Arial", "Calibri";
+font-size:14px;
+line-height:40px;
+font-weight:300;
+color:black;
+outline:none;
+}
+
+#msg{
+height:200px;
+resize:none;
+}
+
+#form_contacto input:focus, textarea:focus, select:focus {
+border:2px solid black;
+}
+
+#form_contacto input:hover, textarea:hover, select:hover {
+transition:all 0.4s linear;
+-webkit-transition:all 0.4s linear;
+-moz-transition:all 0.4s linear;
+-o-transition:all 0.4s linear;
+
+border:2px solid black;
+}
+
+#form_contacto input::placeholder, textarea::placeholder, select::placeholder {
+color:black;
+}
+
+#form_contacto ul button {
+all:unset;
+
+width:90px;
+height:40px;
+
+margin-bottom:20px;
+
+float:right;
+box-sizing:content-box;
+
+background-color:#ededed;
+
+border:1px solid #3ea3db;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+outline:none;
+
+font-family:"Nunito Sans", "Arial", "Calibri";
+font-size:14px;
+line-height:40px;
+font-weight:300;
+text-align:center;
+color:#3ea3db;
+}
+
+#form_contacto ul button:hover {
+transition:all 0.1s linear;
+-webkit-transition:all 0.1s linear;
+-moz-transition:all 0.1s linear;
+-o-transition:all 0.1s linear;
+
+background-color:#3ea3db;
+color:#ededed;
+}
+
+#res_contacto {
+font-size:14px;
+text-align:center;
+}
+
+
+
+
+/* RESPONSIVE TABLETS */
+
+
+
+
+@media all and (min-width: 599px) and (max-width: 1023px) {
+
+
+/* Header */
+
+
+#encabezado {
+height:120px;
+}
+
+h1 {
+line-height:120px;
+}
+
+#menu {
+height:70px;
+
+border-bottom:4px solid #3ea3db;
+}
+
+#botonera{
+width:95%;
+}
+
+#botonera ul {
+float:none;
+}
+
+#botonera ul li {
+font-size:0;
+}
+
+#botonera ul li a{
+width:25%;
+margin:0;
+
+font-size:22px;
+line-height:70px;
+}
+
+#banner{
+width:100%;
+height:200px;
+}
+
+
+/* Sección Principal (Inicio) */
+
+
+#seccion_principal {
+width:95%;
+}
+
+#seccion_principal p{
+
+padding:5px;
+}
+
+#seccion_principal p span {
+color:#3ea3db;
+font-weight:700;
+}
+
+#botonprod {
+height:55px;
+
+margin:15px 5% 15px 0px;
+}
+
+#botonprod a{
+padding:10px;
+
+border:1px solid #3ea3db;
+
+font-size:20px;
+line-height:55px;
+font-weight:300;
+}
+
+
+/* Footer */
+
+
+footer{
+border-top:10px solid #3ea3db;
+}
+
+#footinfo{
+margin:70px 0 70px 0;
+}
+
+#footinfo #gac{
+margin-bottom:5px;
+
+font-weight:500;
+font-size:15px;
+}
+
+#footinfo #gac a{
+color:#3ea3db;
+text-decoration:none;
+}
+
+#footinfo #aviso{
+font-size:9px;
+font-weight:200;
+color:#ededed;
+text-align:center;
+font-style:italic;
+}
+
+
+/* Sección productos */
+
+
+#productos {
+width:100%;
+}
+
+.desc_producto {
+width:510px;
+height:auto;
+
+margin:0 auto 50px auto;
+}
+
+.div_img_producto {
+width:180px;
+height:180px;
+
+margin:20px 0 0 20px;
+}
+
+.img_producto{
+width:100%;
+}
+
+
+.info_producto {
+width:280px;
+height:180px;
+
+margin:20px 20px 0 0;
+padding:10px;
+
+box-sizing:border-box;
+
+font-size:15px;
+line-height:32px;
+}
+
+
+.boton_compra {
+margin:20px 30px 0px 0px;
+}
+
+
+/* Sección Soporte */
+
+
+#header_soporte {
+width:95%;
+}
+
+#val_garantia {
+width:90%;
+}
+
+#exit_val a{
+font-size:30px;
+line-height:30px;
+}
+
+#val_garantia h3 {
+font-size:22px;
+line-height:22px;
+}
+
+#bot_val_gar {
+margin-bottom:40px;
+}
+
+#bot_val_gar a{
+font-size:20px;
+line-height:20px;
+}
+
+
+#info_gar {
+margin-bottom:40px;
+}
+
+#info_gar label {
+margin:10px auto 0 auto;
+
+display:block;
+
+font-size:22px;
+line-height:22px;
+font-weight:700;
+}
+
+#info_gar label span{
+font-size:16px;
+line-height:16px;
+}
+
+#fecha_compra {
+border-bottom:5px solid #3ea3db;
+
+margin-bottom:20px;
+
+font-size:22px;
+}
+
+#send_date {
+margin:0 auto 20px auto;
+
+font-size:22px;
+line-height:22px;
+}
+
+#info_gar p {
+font-size:20px;
+line-height:20px;
+}
+
+#info_gar p span {
+font-size:15px;
+line-height:20px;
+}
+
+#info_soporte {
+width:95%;
+
+margin:0 auto 50px auto;
+}
+
+#info_soporte h3{
+margin:50px auto 50px auto;
+
+border-bottom:1px solid #3ea3db;
+
+font-size:18px;
+}
+
+#info_soporte ul{
+width:550px;
+
+margin:0 auto 20px auto;
+}
+
+#info_soporte li{
+font-size:16px;
+}
+
+#info_soporte em{
+font-size:14px;
+}
+
+#boton_fmi {
+height:40px;
+
+margin-right:20px;
+}
+
+#boton_fmi a {
+font-size:14px;
+line-height:40px;
+}
+
+.boton_repa {
+height:50px;
+
+margin:0 auto 0 auto;
+}
+
+.boton_repa a{
+font-size:16px;
+line-height:50px;
+}
+
+
+/* Sección Contacto */
+
+
+#contacto {
+width:95%;
+}
+
+#contacto h2 {
+margin-bottom:50px;
+}
+
+#p_contacto{
+font-size:16px;
+}
+
+#form_contacto {
+width:540px;
+
+margin:50px auto 0 auto;
+}
+
+#form_contacto ul button {
+width:120px;
+height:40px;
+}
+
+} /* FIN RESPONSIVE TABLETS */
+
+
+
+
+/* RESPONSIVE SMARTPHONES */
+
+
+
+
+@media all and (max-width: 599px) {
+
+
+/* Header */
+
+
+#encabezado {
+height:90px;
+
+background-color:black;
+}
+
+h1 {
+font-size:17px;
+line-height:90px;
+}
+
+#menu {
+width:100%;
+height:55px;
+
+border-bottom:4px solid #3ea3db;
+
+background-color:#ededed;
+
+position:sticky;
+top:0;
+}
+
+#botonera {
+width:100%;
+}
+
+#botonera ul {
+float:none;
+}
+
+#botonera ul li {
+display:inline;
+font-size:0;
+}
+
+#botonera ul li a{
+width:25%;
+margin:0;
+
+font-size:15px;
+line-height:55px;
+}
+
+#banner{
+width:100%;
+height:200px;
+}
+
+
+/* Sección Principal (Inicio) */
+
+
+#seccion_principal {
+width:100%;
+
+margin:20px auto 20px auto;
+
+overflow:hidden;
+}
+
+#seccion_principal h2 {
+margin-bottom:20px;
+font-size:25px;
+}
+
+#seccion_principal p{
+margin:0;
+padding:0px 15px 5px 15px;
+
+font-size:15px;
+line-height:30px;
+}
+	
+#botonprod {
+height:20px;
+
+margin:15px 25px 20px 0px;
+padding:0;
+float:right;
+}
+
+#botonprod a{
+height:20px;
+
+padding:8px;
+
+line-height:20px;
+font-weight:300;
+}
+
+
+/* Footer */
+
+
+footer{
+border-top:10px solid #3ea3db;
+}
+
+#footinfo{
+margin:40px auto 40px auto;
+}
+
+#footinfo #gac{
+font-size:11px;
+}
+
+#footinfo #gac a{
+color:#3ea3db;
+text-decoration:none;
+}
+
+#footinfo #aviso{
+font-size:5px;
+padding:0 10px;
+}
+
+
+/* Sección productos */
+
+
+#productos {
+width:95%;
+}
+
+.desc_producto {
+width:95%;
+height:auto;
+
+margin:0 auto 50px auto;
+padding:20px;
+
+box-sizing:border-box;
+}
+
+.tit_producto {
+border-bottom:0.5px solid #3ea3db;
+
+box-sizing:border-box;
+
+font-size:20px;
+}
+
+.div_img_producto {
+width:90%;
+height:200px;
+
+margin:20px auto 20px auto;
+
+float:none;
+}
+
+.img_producto{
+height:100%;
+object-fit:contain;
+}
+
+
+.info_producto {
+width:90%;
+height:auto;
+
+margin:20px auto 20px auto;
+
+float:none;
+
+font-size:14px;
+}
+
+
+.boton_compra {
+width:100px;
+height:40px;
+
+margin:0;
+}
+
+#enlace_compra {
+font-size:16px;
+line-height:40px;
+}
+
+
+/* Sección Soporte */
+
+
+#header_soporte {
+width:90%;
+margin:50px auto 50px auto;
+
+text-align:center;
+}
+
+#header_soporte h2{
+font-size:30px;
+}
+
+#val_garantia {
+width:100%;
+}
+
+#exit_val{
+margin:10px 2% 0 0;
+}
+
+#exit_val a{
+font-size:25px;
+line-height:25px;
+}
+
+#val_garantia h3 {
+font-size:22px;
+line-height:22px;
+}
+
+#bot_val_gar a{
+font-size:20px;
+line-height:20px;
+}
+
+#info_gar {
+margin-bottom:35px;
+}
+
+#info_gar label {
+font-size:22px;
+line-height:22px;
+}
+
+#info_gar label span{
+font-size:18px;
+line-height:18px;
+}
+
+#fecha_compra {
+border-bottom:5px solid #3ea3db;
+
+font-size:22px;
+}
+
+#send_date {
+font-size:20px;
+line-height:20px;
+}
+
+#info_gar p {
+font-size:20px;
+line-height:20px;
+}
+
+#info_gar p span {
+font-size:15px;
+line-height:20px;
+}
+
+#info_soporte {
+width:90%;
+}
+
+#info_soporte h3{
+margin:50px auto 50px auto;
+padding:10px;
+
+border-bottom:1px solid #3ea3db;
+
+font-size:18px;
+}
+
+#info_soporte ul{
+margin:0;
+padding:0px 20px;
+
+list-style-type:none;
+}
+
+#info_soporte li{
+font-size:16px;
+line-height:30px;
+font-weight:300;
+color:black;
+}
+
+#info_soporte em{
+font-size:14px;
+}
+
+#boton_fmi {
+width:150px;
+height:40px;
+
+margin-top:20px;
+}
+
+#boton_fmi a {
+font-size:14px;
+line-height:40px;
+}
+
+.boton_repa {
+width:170px; 
+height:50px;
+
+margin:0 auto 0 auto;
+}
+
+.boton_repa a{
+font-size:16px;
+line-height:50px;
+}
+
+
+/* Sección Contacto */
+
+
+#contacto {
+width:90%;
+}
+
+#contacto h2 {
+font-size:30px;
+}
+
+#p_contacto {
+padding:10px 0px;
+
+font-size:14px;
+line-height:22px;	
+}
+
+#form_contacto {
+width:95%;
+
+margin:50px auto 0 auto;
+}
+
+#form_contacto input, select, textarea {
+height:40px;
+
+font-size:14px;
+line-height:40px;
+}
+
+#msg{
+height:180px;
+}
+
+#form_contacto ul button {
+width:100px;
+}
+
+} /* FIN RESPONSIVE SMARTPHONES */
